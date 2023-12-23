@@ -1,0 +1,5 @@
+Translation using qmake:
+1. Open QT MINGW and go to the projeect .pro location
+2. type lupdate -pro TranslatorTutorial.pro -ts chinese.ts
+3. Open linguistic app to edit the .ts file
+4. lrelease chinese.ts file to create .qm file
